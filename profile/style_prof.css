@@ -5,9 +5,9 @@ body{
     color: azure;
 }
 
-nav{
-    background-color: aliceblue;
-    color: black;
+header{
+    background-color: black;
+    color: white;
 }
 
 h2{
