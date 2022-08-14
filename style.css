@@ -6,17 +6,20 @@ body{
 
 header{
     position: fixed;
+    color: black;
+    background-color: lightslategray;
+    margin: 0; 
 }
 
 .l-header {
     position: fixed;
+    font: 120% Arial;
     z-index: 1000;
     width: 100%;
     height: 65px;
     min-width: 320px;
     padding: 10px 0;
-    color: black;
-    background-color: lightskyblue; }
+}
 
 h2{
     font-style: italic;
