@@ -8,6 +8,16 @@ header{
     position: fixed;
 }
 
+.l-header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 65px;
+    min-width: 320px;
+    padding: 10px 0;
+    color: black;
+    background-color: lightskyblue; }
+
 h2{
     font-style: italic;
 }
