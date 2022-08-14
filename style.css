@@ -17,6 +17,7 @@ h2{
     border-radius: 5px;
 }
 
+
 .site-header {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
@@ -58,3 +59,14 @@ h2{
 .site-nav .page-link:not(:last-child) {
     margin-right:20px
 }
+
+#footer {
+    clear: both;
+    padding: 0.5em 1em 1em;
+    border-top: 1px solid #cccccc;
+  }
+
+#footer p {
+    font-size: small;
+    text-align: center;
+  }
