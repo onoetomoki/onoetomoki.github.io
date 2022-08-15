@@ -8,7 +8,7 @@ header{
     color: azure;
     background-color: lightslategray;
     margin: 10; 
-    padding: 0;
+    min-width: 960px;
 }
 
 .l-header {
@@ -29,10 +29,10 @@ header{
 
 .site-title {
     z-index: 1001;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     margin-bottom: 0;
     float:none;
     left: 10px;
