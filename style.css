@@ -40,7 +40,9 @@ h2{
     letter-spacing: -1px;
     margin-bottom: 0;
     float:left;
+    left:10px;
     color: azure;
+    border-left: 40px solid black;
 }
 
 .site-nav {
