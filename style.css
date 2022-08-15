@@ -93,3 +93,11 @@ h2{
     padding-right: 30px;
     padding-left:30px
 }
+
+button {
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    font-family:  serif;
+  }
