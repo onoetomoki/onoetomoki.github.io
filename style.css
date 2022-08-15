@@ -91,11 +91,11 @@ h2{
 }
 
 .hobby > li{
-    color: lightsteelblue;
-    border-left: solid 6px lightsteelblue; /*左側の線*/
-    background: #f1f8ff;    /*背景色*/
+    color: grey;
+    border-left: solid 6px grey; /*左側の線*/
+    background: azure;    /*背景色*/
     margin-bottom: 3px; /*下のバーとの余白*/
-     line-height: 1.5;
+    line-height: 1.5;
     padding: 0.5em;
     list-style-type: none!important; /*ポチ消し*/
 }
