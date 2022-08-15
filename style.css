@@ -8,7 +8,7 @@ header{
     position: fixed;
     color: azure;
     background-color: lightslategray;
-    margin: 0; 
+    margin: 10; 
 }
 
 .l-header {
@@ -40,16 +40,14 @@ rounded img {
 }
 
 .site-title {
+    z-index: 1001;
     font-size: 28px;
     font-weight: 300;
     line-height: 54px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float:left
-}
-
-.site-title, .site-title:visited {
-    color:#424242
+    float:left;
+    color: azure;
 }
 
 .site-nav {
@@ -66,7 +64,7 @@ rounded img {
 }
 
 .site-nav .page-link {
-    color: #111;
+    color: azure;
     line-height:1.5
 }
 
