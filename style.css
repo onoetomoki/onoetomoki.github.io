@@ -25,15 +25,6 @@ h2{
     font-style: italic;
 }
 
-#rounded img {
-    display: block;
-    float:left;
-    width: 500px;
-    height: auto;
-    border-radius: 5px;
-}
-
-
 .site-header {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
@@ -94,10 +85,9 @@ h2{
     padding-left:30px
 }
 
-button {
-    margin: auto;
+img {
     display: block;
-    font-size: 20px;
-    background-color: white;
-    font-family:  serif;
+    width: 400px;
+    height: 250px;
+    margin: 50px;
   }
