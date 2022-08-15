@@ -15,13 +15,9 @@ header{
     z-index: 1000;
     width: 100%;
     height: 65px;
-    padding: 5px 5px;
+    padding: 0;
     color: azure;
     background-color: lightslategray;
-}
-
-h2{
-    font-style: italic;
 }
 
 .site-header {
@@ -92,9 +88,9 @@ h2{
   }  
 
 .hobby > ul li{
-    color: grey;
-    border-left: solid 6px grey; /*左側の線*/
-    background: azure;    /*背景色*/
+    color: black;
+    border-left: solid 6px black; /*左側の線*/
+    background: lightslategray;    /*背景色*/
     margin-bottom: 3px; /*下のバーとの余白*/
     line-height: 1.5;
     padding: 1em;
@@ -104,7 +100,9 @@ h2{
 .game > ul li{
     color: black;
     padding: 0.5em;
-    list-style-type: decimal
+    border-left:none;
+    background: white;
+    list-style-type:circle
 }
 
 img {
