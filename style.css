@@ -27,12 +27,12 @@ h2{
     font-style: italic;
 }
 
-.site-header {
+/*.site-header {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
     min-height: 55.95px;
     position:relative
-}
+}*/
 
 .site-title {
     z-index: 1001;
@@ -49,7 +49,6 @@ h2{
 
 .site-nav {
     float: right;
-    left: 5px;
     line-height:54px
 }
 
@@ -90,7 +89,12 @@ h2{
     padding-left:30px
 }
 
-.hobby > li{
+.hobby > ul, ol {
+    padding: 0;
+    position: relative;
+  }  
+
+.hobby > ul li{
     color: grey;
     border-left: solid 6px grey; /*左側の線*/
     background: azure;    /*背景色*/
