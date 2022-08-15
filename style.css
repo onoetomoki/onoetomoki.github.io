@@ -42,7 +42,7 @@ h2{
     float:left;
     left:10px;
     color: azure;
-    border-left: 5px solid black;
+    border-left: 5px solid azure;
 }
 
 .site-nav {
@@ -85,6 +85,16 @@ h2{
     margin-left: auto;
     padding-right: 30px;
     padding-left:30px
+}
+
+.hobby {
+    color: lightsteelblue;
+    border-left: solid 6px lightsteelblue; /*左側の線*/
+    background: #f1f8ff;    /*背景色*/
+    margin-bottom: 3px; /*下のバーとの余白*/
+     line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important; /*ポチ消し*/
 }
 
 img {
