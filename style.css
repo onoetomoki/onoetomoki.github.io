@@ -54,27 +54,16 @@ header{
     line-height:1.5
 }
 
-#footer {
-    clear: both;
-    padding: 0.5em 1em 1em;
-    border-top: 1px solid #cccccc;
-  }
 
-#footer p {
-    font-size: small;
-    text-align: center;
-  }
-
-  /*
 .wrapper {
     max-width: -webkit-calc(800px -(30px * 2));
     max-width: calc(800px -(30px * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: 30px;
+    padding-right: 50px;
     padding-left:30px
 }
-*/
+
 
 .hobby > ul {
     padding: 0;
@@ -96,7 +85,6 @@ header{
     padding: 0.5em;
     border-left:none;
     background: white;
-    list-style-type: disc;
 }
 
 img {
@@ -104,4 +92,24 @@ img {
     width: 600px;
     height: 375px;
     margin: 30px;
-  }
+}
+
+#footer {
+    clear: both;
+    padding: 0.5em 1em 1em;
+    border-top: 1px solid #cccccc;
+}
+
+#footer p {
+    font-size: small;
+    text-align: center;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 5px;
+    vertical-align:text-top
+}
