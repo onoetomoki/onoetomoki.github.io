@@ -2,7 +2,7 @@ const img_src = ["image/hutami.jpg", "image/tikutetsu.jpg", "image/ema.jpg", "im
 let num = -1;
 
 function slide_time() {
-    if (num === 2) {
+    if (num === 3) {
     num = 0;
     } else {
     num++;
@@ -10,4 +10,4 @@ function slide_time() {
     document.getElementById("slide_img").src = img_src[num];
 }
 
-setInterval(slide_time, 1200);
+setInterval(slide_time, 2500);
