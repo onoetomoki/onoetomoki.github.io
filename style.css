@@ -5,14 +5,12 @@ body{
 }
 
 header{
-    position: fixed;
     color: azure;
     background-color: lightslategray;
     margin: 10; 
 }
 
 .l-header {
-    position: fixed;
     font: 100% Arial;
     z-index: 1000;
     width: 100%;
