@@ -82,8 +82,8 @@ p{
 
 img {
     display: block;
-    width: 800px;
-    height: 400px;
+    width: 900px;
+    height: 600px;
     margin: 30px;
 }
 
@@ -102,5 +102,5 @@ img {
     width: 20px;
     height: 20px;
     display: inline-block;
-    font-size:3px;
+    font-size:1px;
 }
