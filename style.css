@@ -9,7 +9,6 @@ body{
 
 header{
     color: azure;
-    background-color: lightslategray;
     margin: 10; 
     min-width: 960px;
 }
@@ -76,7 +75,7 @@ header{
 .hobby > ul li{
     color: white;
     border-left: solid 6px white; /*左側の線*/
-    background: blue;    /*背景色*/
+    background: midnightblue;    /*背景色*/
     margin-bottom: 3px; /*下のバーとの余白*/
     line-height: 1.0;
     padding: 1em;
@@ -86,6 +85,7 @@ header{
 .game > ul li{
     padding: 0.5em;
     border-left:none;
+    color: transparent;
 }
 
 img {
@@ -98,7 +98,7 @@ img {
 #footer {
     clear: both;
     padding: 0.5em 1em 1em;
-    border-top: 1px solid #cccccc;
+    border-top: 4px solid #cccccc;
 }
 
 #footer p {
@@ -107,7 +107,7 @@ img {
 }
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
 }
