@@ -11,13 +11,3 @@ function slide_time() {
 }
 
 setInterval(slide_time, 2500);
-
-function footer(){
-    $.ajax({
-        url: "footer.html",
-        cache: false,
-        success: function(html){
-            document.write(html);
-        }
-    });
-}
