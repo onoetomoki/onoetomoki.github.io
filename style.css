@@ -12,6 +12,10 @@ header{
     min-width: 960px;
 }
 
+p{
+    color: white;"
+}
+
 .site-title {
     z-index: 1001;
     font-size: 40px;
@@ -62,7 +66,7 @@ header{
 .hobby > ul li{
     color: white;
     border-left: solid 6px white; /*左側の線*/
-    background: rgba(23, 38, 135, 0.65);    /*背景色*/
+    /*background: rgba(23, 38, 135, 0.65);    背景色*/
     margin-bottom: 3px; /*下のバーとの余白*/
     line-height: 1.0;
     padding: 1em;
