@@ -57,9 +57,10 @@ p{
     padding-left:30px
 }
 
-.link-underline > p{
+.link-underline > a{
     text-decoration: none; 
     border-bottom: 1px solid white;
+    margin-bottom: 3px;
 }
 
 .hobby > ul {
